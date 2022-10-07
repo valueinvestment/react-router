@@ -5,8 +5,8 @@ const About = () => {
   const { push } = useRouter();
   return (
     <>
-      <h1>About</h1>
-      <button onClick={() => push("/")}>Home</button>
+      <h1>about</h1>
+      <button onClick={() => push("/")}>go main</button>
     </>
   );
 };
